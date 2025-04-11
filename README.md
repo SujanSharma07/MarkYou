@@ -75,3 +75,5 @@ A Django-based platform for automated email campaigns using Excel uploads and re
 ---
 
 ## 📂 Project Structure (Simplified)
+```
+project/ │ ├── core/ # Main Django App │ ├── models/ │ ├── views/ │ ├── tasks/ # Celery tasks │ ├── email_templates/ # Template upload + validation │ └── reports/ # Report generation │ ├── sentiment/ # Social media + analysis module │ ├── platforms/ # FB, Twitter, etc. │ ├── analysis/ # NLP logic │ └── plugins/ # Platform toggles │ ├── media/ # Uploaded templates and files ├── static/ # Static assets ├── templates/ # Django templates ├── requirements.txt ├── docker-compose.yml └── README.md```
